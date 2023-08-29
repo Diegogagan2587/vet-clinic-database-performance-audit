@@ -1,4 +1,4 @@
-# curriculum-databases-projects-template
+# Vet Clinic Performance Audit
 
 <!--![image](https://github.com/Javivy/vet-clinic/assets/84439052/11b810b9-48c3-4eff-98b2-075f19ad69ab)-->
 
