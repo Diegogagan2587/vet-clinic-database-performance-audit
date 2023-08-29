@@ -45,3 +45,11 @@ CREATE TABLE visits(
   date_of_visit DATE,
   PRIMARY KEY(id)
 );
+
+CREATE INDEX animal_id_index ON visits(animal_id);
+
+CREATE INDEX vet_id_index ON visits(vet_id);
+CLUSTER visits USING vet_id_index;
+CLUSTER visits;
+
+CREATE INDEX email_index ON owners(email);
